@@ -1,0 +1,48 @@
+***
+
+# Slugify
+
+Creates a slug to be used for pretty URLs
+
+
+
+* Full name: `\Zemit\Support\Helper\Str\Slugify`
+
+
+
+
+## Methods
+
+
+### __invoke
+
+
+
+```php
+public __invoke(string $string, array $replace = [], string $delimiter = '-'): string
+```
+
+
+
+
+
+
+
+
+**Parameters:**
+
+| Parameter | Type | Description |
+|-----------|------|-------------|
+| `$string` | **string** |  |
+| `$replace` | **array** |  |
+| `$delimiter` | **string** |  |
+
+
+
+
+
+***
+
+
+***
+> Automatically generated on 2024-03-28

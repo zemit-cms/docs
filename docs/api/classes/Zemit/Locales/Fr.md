@@ -1,0 +1,48 @@
+***
+
+# Fr
+
+
+
+
+
+* Full name: `\Zemit\Locales\Fr`
+* Parent class: [`NativeArray`](https://docs.phalcon.io/latest/api/){:target="_blank"}
+
+
+
+
+## Methods
+
+
+### __construct
+
+
+
+```php
+public __construct(\Phalcon\Translate\InterpolatorFactory $interpolator, array $options = []): mixed
+```
+
+
+
+
+
+
+
+
+**Parameters:**
+
+| Parameter | Type | Description |
+|-----------|------|-------------|
+| `$interpolator` | **\Phalcon\Translate\InterpolatorFactory** |  |
+| `$options` | **array** |  |
+
+
+
+
+
+***
+
+
+***
+> Automatically generated on 2024-03-28

@@ -1,0 +1,41 @@
+***
+
+# HelperFactory
+
+HelperFactory Class
+
+This class extends the Phalcon\Support\HelperFactory class and provides additional helper services.
+
+* Full name: `\Zemit\Support\HelperFactory`
+* Parent class: [`HelperFactory`](https://docs.phalcon.io/latest/api/){:target="_blank"}
+
+
+
+
+## Methods
+
+
+### getServices
+
+Returns the available adapters
+
+```php
+protected getServices(): string[]
+```
+
+
+
+
+
+
+
+
+
+
+
+
+***
+
+
+***
+> Automatically generated on 2024-03-28

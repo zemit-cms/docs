@@ -1,0 +1,49 @@
+***
+
+# SumAction
+
+
+
+
+
+* Full name: `\Zemit\Mvc\Controller\Traits\Actions\Rest\SumAction`
+
+
+
+
+## Methods
+
+
+### sumAction
+
+Calculates the sum of a column.
+
+```php
+public sumAction(): \Phalcon\Http\ResponseInterface
+```
+
+
+
+
+
+
+
+
+
+**Return Value:**
+
+The REST response with a status of true.
+
+
+
+**Throws:**
+
+- [`Exception`](../../../../../../Exception.md)
+
+
+
+***
+
+***
+> Automatically generated on 2024-03-28
+

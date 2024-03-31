@@ -1,0 +1,44 @@
+***
+
+# Debug
+
+
+
+
+
+* Full name: `\Zemit\Mvc\Controller\Traits\Debug`
+
+
+
+
+## Methods
+
+
+### isDebugEnabled
+
+Returns whether debug mode is enabled.
+
+```php
+public isDebugEnabled(): bool
+```
+
+
+
+
+
+
+
+
+
+**Return Value:**
+
+True if debug mode is enabled, false otherwise.
+
+
+
+
+***
+
+***
+> Automatically generated on 2024-03-28
+

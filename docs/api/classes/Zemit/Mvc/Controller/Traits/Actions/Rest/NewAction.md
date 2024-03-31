@@ -1,0 +1,46 @@
+***
+
+# NewAction
+
+
+
+
+
+* Full name: `\Zemit\Mvc\Controller\Traits\Actions\Rest\NewAction`
+
+
+
+
+## Methods
+
+
+### newAction
+
+Prepare a new unsaved model
+This is useful if you want the default values
+
+```php
+public newAction(): \Phalcon\Http\ResponseInterface
+```
+
+
+
+
+
+
+
+
+
+
+
+**Throws:**
+
+- [`Exception`](../../../../../../Exception.md)
+
+
+
+***
+
+***
+> Automatically generated on 2024-03-28
+
