@@ -10,5 +10,7 @@ RUN pip install --upgrade \
       mkdocs-git-committers-plugin \
       mkdocs-git-revision-date-localized-plugin \
       "mkdocs-material[imaging]" \
+      pymdown-extensions \
+      neoteroi-mkdocs \
       pillow \
       cairosvg

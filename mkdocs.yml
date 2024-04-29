@@ -9,7 +9,7 @@ docs_dir: docs
 theme:
   name: material
   logo: assets/images/zemit-logo-dark.png
-  favicon: assets/images/favicon.png
+  favicon: assets/images/zemit-logo.png
   highlightjs: false
   locale: en
   icon:
@@ -143,6 +143,11 @@ plugins:
             regex:
               - '^api/'
   - group:
+      enabled: true
+      plugins:
+        - neoteroi.mkdocsoad:
+            use_pymdownx: true
+  - group:
       enabled: !ENV CD
       plugins:
         - tags
@@ -169,6 +174,7 @@ plugins:
                   - assets/javascripts/extra.js
               css_files:
                   - assets/stylesheets/extra.css
+                  - assets/stylesheets/oad.css
 
 markdown_extensions:
   - abbr
@@ -224,6 +230,10 @@ nav:
           - Dispatcher: core/dispatcher.md
           - Request: core/request.md
           - Response: core/response.md
+      - MVC:
+          - Model: core/model.md
+          - View: core/view.md
+          - Controller: core/controller.md
       - Advanced Topics:
           - Services: core/services.md
           - Models: core/models.md
@@ -307,12 +317,14 @@ nav:
           - Clamav: services/clamav.md
   - REST:
       - Introduction : rest.md
-      - REST System : rest-system.md
-      - RESTful System : restful-system.md
+      - REST System : rest/rest-system.md
+      - RESTful System : rest/restful-system.md
       - Authentication:
-          - Identity: restful-api/auth.md
+          - Identity: rest/auth.md
       - APIs:
-          - User: restful-api/user.md
+          - User: rest/api/user.md
+          - Role: rest/api/role.md
+          - Group: rest/api/group.md
   - API:
       - Home: api/Home.md
       - \Zemit:

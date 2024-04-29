@@ -1,6 +1,6 @@
 # Services
 
-## Bootstrap Services
+## Bootstrap
 
 <div class="grid cards" markdown>
 
@@ -12,7 +12,7 @@
 
 </div>
 
-## HTTP Services
+## HTTP
 
 <div class="grid cards" markdown>
 
