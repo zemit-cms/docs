@@ -129,11 +129,13 @@ extra:
 #    provider: mike
 extra_css:
   - assets/stylesheets/extra.css
+  - assets/stylesheets/oad.css
 extra_javascript:
   - assets/javascripts/extra.js
 plugins:
   - group:
-      enabled: !ENV CI
+#      enabled: !ENV CI
+      enabled: true
       plugins:
         - exclude:
             glob:
@@ -243,88 +245,6 @@ nav:
       - Frontend: modules/frontend.md
       - Admin: modules/admin.md
       - Auth: modules/auth.md
-      - API: modules/api.md
-      - CLI: modules/cli.md
-  - Services:
-      - Introduction: services.md
-      - Bootstrap:
-          - Application: services/application.md
-          - Console: services/console.md
-          - Router: services/router.md
-          - Dispatcher: services/dispatcher.md
-          - Events: services/events-manager.md
-      - HTTP:
-          - Request: services/request.md
-          - Response: services/response.md
-          - Cookies: services/cookies.md
-          - Session: services/session.md
-          - Url: services/url.md
-      - Configuration:
-          - Version: services/version.md
-          - Config: services/config.md
-          - Env: services/env.md
-      - Database:
-          - Database: services/database.md
-      - i18n:
-          - Locale: services/locale.md
-          - Translate: services/translate.md
-      - Security:
-          - ACL: services/acl.md
-          - JWT: services/jwt.md
-          - Crypt: services/crypt.md
-          - Filter: services/filter.md
-          - Escaper: services/escaper.md
-          - Identity: services/identity.md
-          - Security: services/security.md
-      - Performance:
-          - Cache: services/cache.md
-          - Profiler: services/profiler.md
-      - Emails:
-          - Mailer: services/mailer.md
-          - Imap: services/imap.md
-      - Helpers:
-          - Debug: services/debug.md
-          - Helper: services/helper.md
-          - Utils: services/utils.md
-          - Flash: services/flash.md
-          - Image: services/image.md
-          - Tag: services/tag.md
-          - File System: services/file-system.md
-          - Lorem Ipsum: services/lorem-ipsum.md
-      - Frontend:
-          - Assets: services/assets.md
-          - View: services/view.md
-          - Volt: services/volt.md
-      - Loggers:
-          - Logger: services/logger.md
-          - Loggers: services/loggers.md
-      - Models:
-          - Models: services/models.md
-          - Models Cache: services/models-cache.md
-          - Models Manager: services/models-manager.md
-          - Models Metadata: services/models-metadata.md
-      - Auth:
-          - OAuth2 Client: services/oauth-2-client.md
-          - OAuth2 Facebook: services/oauth-2-facebook.md
-          - OAuth2 Google: services/oauth-2-google.md
-      - Providers:
-          - Aws: services/aws.md
-          - Google: services/google.md
-          - Open AI: services/open-ai.md
-          - Gravatar: services/gravatar.md
-          - ReCaptcha: services/re-captcha.md
-          - Tesseract OCR: services/ocr.md
-          - Clamav: services/clamav.md
-  - REST:
-      - Introduction : rest.md
-      - REST System : rest/rest-system.md
-      - RESTful System : rest/restful-system.md
-      - Authentication:
-          - Identity: rest/auth.md
-      - APIs:
-          - User: rest/api/user.md
-          - Role: rest/api/role.md
-          - Group: rest/api/group.md
   - API:
       - Home: api/Home.md
       - \Zemit:
@@ -347,6 +267,7 @@ nav:
           - Router: api/classes/Zemit/Bootstrap/Router.md
       - \Zemit\Bootstrap\Permissions:
           - TableConfig: api/classes/Zemit/Bootstrap/Permissions/TableConfig.md
+          - TemplateConfig: api/classes/Zemit/Bootstrap/Permissions/TemplateConfig.md
           - WorkspaceConfig: api/classes/Zemit/Bootstrap/Permissions/WorkspaceConfig.md
       - \Zemit\Cache:
           - Cache: api/classes/Zemit/Cache/Cache.md
@@ -427,6 +348,7 @@ nav:
           - AuditDetail: api/classes/Zemit/Models/AuditDetail.md
           - Backup: api/classes/Zemit/Models/Backup.md
           - Category: api/classes/Zemit/Models/Category.md
+          - Column: api/classes/Zemit/Models/Column.md
           - Data: api/classes/Zemit/Models/Data.md
           - Email: api/classes/Zemit/Models/Email.md
           - EmailFile: api/classes/Zemit/Models/EmailFile.md
@@ -477,6 +399,7 @@ nav:
           - AuditDetailAbstract: api/classes/Zemit/Models/Abstracts/AuditDetailAbstract.md
           - BackupAbstract: api/classes/Zemit/Models/Abstracts/BackupAbstract.md
           - CategoryAbstract: api/classes/Zemit/Models/Abstracts/CategoryAbstract.md
+          - ColumnAbstract: api/classes/Zemit/Models/Abstracts/ColumnAbstract.md
           - DataAbstract: api/classes/Zemit/Models/Abstracts/DataAbstract.md
           - EmailAbstract: api/classes/Zemit/Models/Abstracts/EmailAbstract.md
           - EmailFileAbstract: api/classes/Zemit/Models/Abstracts/EmailFileAbstract.md
@@ -527,6 +450,7 @@ nav:
           - AuditDetailAbstractInterface: api/classes/Zemit/Models/Abstracts/Interfaces/AuditDetailAbstractInterface.md
           - BackupAbstractInterface: api/classes/Zemit/Models/Abstracts/Interfaces/BackupAbstractInterface.md
           - CategoryAbstractInterface: api/classes/Zemit/Models/Abstracts/Interfaces/CategoryAbstractInterface.md
+          - ColumnAbstractInterface: api/classes/Zemit/Models/Abstracts/Interfaces/ColumnAbstractInterface.md
           - DataAbstractInterface: api/classes/Zemit/Models/Abstracts/Interfaces/DataAbstractInterface.md
           - EmailAbstractInterface: api/classes/Zemit/Models/Abstracts/Interfaces/EmailAbstractInterface.md
           - EmailFileAbstractInterface: api/classes/Zemit/Models/Abstracts/Interfaces/EmailFileAbstractInterface.md
@@ -585,6 +509,7 @@ nav:
           - AuditInterface: api/classes/Zemit/Models/Interfaces/AuditInterface.md
           - BackupInterface: api/classes/Zemit/Models/Interfaces/BackupInterface.md
           - CategoryInterface: api/classes/Zemit/Models/Interfaces/CategoryInterface.md
+          - ColumnInterface: api/classes/Zemit/Models/Interfaces/ColumnInterface.md
           - DataInterface: api/classes/Zemit/Models/Interfaces/DataInterface.md
           - EmailFileInterface: api/classes/Zemit/Models/Interfaces/EmailFileInterface.md
           - EmailInterface: api/classes/Zemit/Models/Interfaces/EmailInterface.md
@@ -687,6 +612,7 @@ nav:
           - DataLifeCycleTask: api/classes/Zemit/Modules/Cli/Tasks/DataLifeCycleTask.md
           - DatabaseTask: api/classes/Zemit/Modules/Cli/Tasks/DatabaseTask.md
           - ErrorTask: api/classes/Zemit/Modules/Cli/Tasks/ErrorTask.md
+          - FakerTask: api/classes/Zemit/Modules/Cli/Tasks/FakerTask.md
           - HelpTask: api/classes/Zemit/Modules/Cli/Tasks/HelpTask.md
           - ScaffoldTask: api/classes/Zemit/Modules/Cli/Tasks/ScaffoldTask.md
           - TestTask: api/classes/Zemit/Modules/Cli/Tasks/TestTask.md
