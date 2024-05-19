@@ -80,6 +80,7 @@ This is an automatically generated documentation for **Zemit Project Documentati
 | Class | Description |
 |-------|-------------|
 | [`TableConfig`](./classes/Zemit/Bootstrap/Permissions/TableConfig.md) | |
+| [`TemplateConfig`](./classes/Zemit/Bootstrap/Permissions/TemplateConfig.md) | |
 | [`WorkspaceConfig`](./classes/Zemit/Bootstrap/Permissions/WorkspaceConfig.md) | |
 
 
@@ -378,6 +379,7 @@ This is an automatically generated documentation for **Zemit Project Documentati
 | [`AuditDetail`](./classes/Zemit/Models/AuditDetail.md) | Class AuditDetail|
 | [`Backup`](./classes/Zemit/Models/Backup.md) | Class Backup|
 | [`Category`](./classes/Zemit/Models/Category.md) | Class Category|
+| [`Column`](./classes/Zemit/Models/Column.md) | Class Column|
 | [`Data`](./classes/Zemit/Models/Data.md) | Class Data|
 | [`Email`](./classes/Zemit/Models/Email.md) | Class Email|
 | [`EmailFile`](./classes/Zemit/Models/EmailFile.md) | Class EmailFile|
@@ -436,6 +438,7 @@ This is an automatically generated documentation for **Zemit Project Documentati
 | [`AuditDetailAbstract`](./classes/Zemit/Models/Abstracts/AuditDetailAbstract.md) | Class AuditDetailAbstract|
 | [`BackupAbstract`](./classes/Zemit/Models/Abstracts/BackupAbstract.md) | Class BackupAbstract|
 | [`CategoryAbstract`](./classes/Zemit/Models/Abstracts/CategoryAbstract.md) | Class CategoryAbstract|
+| [`ColumnAbstract`](./classes/Zemit/Models/Abstracts/ColumnAbstract.md) | Class ColumnAbstract|
 | [`DataAbstract`](./classes/Zemit/Models/Abstracts/DataAbstract.md) | Class DataAbstract|
 | [`EmailAbstract`](./classes/Zemit/Models/Abstracts/EmailAbstract.md) | Class EmailAbstract|
 | [`EmailFileAbstract`](./classes/Zemit/Models/Abstracts/EmailFileAbstract.md) | Class EmailFileAbstract|
@@ -497,6 +500,7 @@ This is an automatically generated documentation for **Zemit Project Documentati
 | [`AuditDetailAbstractInterface`](./classes/Zemit/Models/Abstracts/Interfaces/AuditDetailAbstractInterface.md) | |
 | [`BackupAbstractInterface`](./classes/Zemit/Models/Abstracts/Interfaces/BackupAbstractInterface.md) | |
 | [`CategoryAbstractInterface`](./classes/Zemit/Models/Abstracts/Interfaces/CategoryAbstractInterface.md) | |
+| [`ColumnAbstractInterface`](./classes/Zemit/Models/Abstracts/Interfaces/ColumnAbstractInterface.md) | |
 | [`DataAbstractInterface`](./classes/Zemit/Models/Abstracts/Interfaces/DataAbstractInterface.md) | |
 | [`EmailAbstractInterface`](./classes/Zemit/Models/Abstracts/Interfaces/EmailAbstractInterface.md) | |
 | [`EmailFileAbstractInterface`](./classes/Zemit/Models/Abstracts/Interfaces/EmailFileAbstractInterface.md) | |
@@ -585,6 +589,7 @@ This is an automatically generated documentation for **Zemit Project Documentati
 | [`AuditInterface`](./classes/Zemit/Models/Interfaces/AuditInterface.md) | |
 | [`BackupInterface`](./classes/Zemit/Models/Interfaces/BackupInterface.md) | |
 | [`CategoryInterface`](./classes/Zemit/Models/Interfaces/CategoryInterface.md) | |
+| [`ColumnInterface`](./classes/Zemit/Models/Interfaces/ColumnInterface.md) | |
 | [`DataInterface`](./classes/Zemit/Models/Interfaces/DataInterface.md) | |
 | [`EmailFileInterface`](./classes/Zemit/Models/Interfaces/EmailFileInterface.md) | |
 | [`EmailInterface`](./classes/Zemit/Models/Interfaces/EmailInterface.md) | |
@@ -734,6 +739,7 @@ This is an automatically generated documentation for **Zemit Project Documentati
 | [`DataLifeCycleTask`](./classes/Zemit/Modules/Cli/Tasks/DataLifeCycleTask.md) | |
 | [`DatabaseTask`](./classes/Zemit/Modules/Cli/Tasks/DatabaseTask.md) | |
 | [`ErrorTask`](./classes/Zemit/Modules/Cli/Tasks/ErrorTask.md) | |
+| [`FakerTask`](./classes/Zemit/Modules/Cli/Tasks/FakerTask.md) | |
 | [`HelpTask`](./classes/Zemit/Modules/Cli/Tasks/HelpTask.md) | |
 | [`ScaffoldTask`](./classes/Zemit/Modules/Cli/Tasks/ScaffoldTask.md) | |
 | [`TestTask`](./classes/Zemit/Modules/Cli/Tasks/TestTask.md) | |
@@ -1990,4 +1996,3 @@ This is an automatically generated documentation for **Zemit Project Documentati
 
 
 ***
-> Automatically generated on 2024-03-28

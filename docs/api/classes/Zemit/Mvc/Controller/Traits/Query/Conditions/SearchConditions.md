@@ -141,5 +141,4 @@ The default search condition, represented as an array containing the query, bind
 ***
 
 ***
-> Automatically generated on 2024-03-28
 

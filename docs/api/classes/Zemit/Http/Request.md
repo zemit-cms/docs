@@ -54,6 +54,7 @@ A preflight request is a CORS (Cross-Origin Resource Sharing) request that is se
 prior to the actual request to determine the permissions to make the actual request.
 
 A preflight request must meet the following conditions:
+
 - The request must be a CORS request.
 - The request method must be OPTIONS.
 - The request must contain a non-empty Access-Control-Request-Method header.
@@ -117,6 +118,7 @@ public toArray(): array
 **Return Value:**
 
 An associative array containing various properties of the request object:
+
 - body: The raw body of the request.
 - post: An array containing the POST parameters.
 - get: An array containing the GET parameters.
@@ -164,4 +166,3 @@ An associative array containing various properties of the request object:
 
 
 ***
-> Automatically generated on 2024-03-28

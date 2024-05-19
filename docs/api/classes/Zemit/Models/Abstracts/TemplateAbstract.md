@@ -50,13 +50,13 @@ public mixed $index
 
 ***
 
-### label
+### name
 
-Column: label
+Column: name
 Attributes: NotNull | Size(100) | Type(2)
 
 ```php
-public mixed $label
+public mixed $name
 ```
 
 
@@ -66,13 +66,13 @@ public mixed $label
 
 ***
 
-### subject
+### title
 
-Column: subject
+Column: title
 Attributes: NotNull | Size(100) | Type(2)
 
 ```php
-public mixed $subject
+public mixed $title
 ```
 
 
@@ -429,14 +429,14 @@ public setIndex(mixed $index): void
 
 ***
 
-### getLabel
+### getName
 
-Returns the value of field label
-Column: label
+Returns the value of field name
+Column: name
 Attributes: NotNull | Size(100) | Type(2)
 
 ```php
-public getLabel(): mixed
+public getName(): mixed
 ```
 
 
@@ -452,14 +452,14 @@ public getLabel(): mixed
 
 ***
 
-### setLabel
+### setName
 
-Sets the value of field label
-Column: label
+Sets the value of field name
+Column: name
 Attributes: NotNull | Size(100) | Type(2)
 
 ```php
-public setLabel(mixed $label): void
+public setName(mixed $name): void
 ```
 
 
@@ -473,7 +473,7 @@ public setLabel(mixed $label): void
 
 | Parameter | Type | Description |
 |-----------|------|-------------|
-| `$label` | **mixed** |  |
+| `$name` | **mixed** |  |
 
 
 
@@ -481,14 +481,14 @@ public setLabel(mixed $label): void
 
 ***
 
-### getSubject
+### getTitle
 
-Returns the value of field subject
-Column: subject
+Returns the value of field title
+Column: title
 Attributes: NotNull | Size(100) | Type(2)
 
 ```php
-public getSubject(): mixed
+public getTitle(): mixed
 ```
 
 
@@ -504,14 +504,14 @@ public getSubject(): mixed
 
 ***
 
-### setSubject
+### setTitle
 
-Sets the value of field subject
-Column: subject
+Sets the value of field title
+Column: title
 Attributes: NotNull | Size(100) | Type(2)
 
 ```php
-public setSubject(mixed $subject): void
+public setTitle(mixed $title): void
 ```
 
 
@@ -525,7 +525,7 @@ public setSubject(mixed $subject): void
 
 | Parameter | Type | Description |
 |-----------|------|-------------|
-| `$subject` | **mixed** |  |
+| `$title` | **mixed** |  |
 
 
 
@@ -5713,4 +5713,3 @@ The updated validator object with the restored validation added.
 
 
 ***
-> Automatically generated on 2024-03-28

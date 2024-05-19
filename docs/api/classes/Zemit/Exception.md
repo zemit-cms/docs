@@ -18,4 +18,3 @@ All Zemit exceptions should use or extend this exception
 
 
 ***
-> Automatically generated on 2024-03-28

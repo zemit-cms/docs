@@ -81,5 +81,4 @@ Returns true if the hash is valid for the string, false otherwise.
 ***
 
 ***
-> Automatically generated on 2024-03-28
 

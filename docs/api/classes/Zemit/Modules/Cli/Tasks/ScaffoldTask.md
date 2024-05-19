@@ -80,6 +80,35 @@ public runAction(): array
 
 ***
 
+### createControllerOutput
+
+
+
+```php
+public createControllerOutput(array $definitions, array $columns, array $relationships): string
+```
+
+
+
+
+
+
+
+
+**Parameters:**
+
+| Parameter | Type | Description |
+|-----------|------|-------------|
+| `$definitions` | **array** |  |
+| `$columns` | **array** |  |
+| `$relationships` | **array** |  |
+
+
+
+
+
+***
+
 ### createModelInterfaceOutput
 
 Generates the output for a model interface.
@@ -1967,4 +1996,3 @@ public afterExecuteRoute(\Phalcon\Cli\Dispatcher $dispatcher): void
 
 
 ***
-> Automatically generated on 2024-03-28

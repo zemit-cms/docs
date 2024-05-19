@@ -290,4 +290,3 @@ public afterExecuteRoute(\Phalcon\Cli\Dispatcher $dispatcher): void
 
 
 ***
-> Automatically generated on 2024-03-28

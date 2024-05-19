@@ -339,5 +339,4 @@ After calling this method, the options array will be empty.
 ***
 
 ***
-> Automatically generated on 2024-03-28
 

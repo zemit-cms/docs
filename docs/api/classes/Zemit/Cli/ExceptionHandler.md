@@ -61,4 +61,3 @@ public __construct(string|\Exception|\Throwable $e, mixed $outputStream = STDERR
 
 
 ***
-> Automatically generated on 2024-03-28

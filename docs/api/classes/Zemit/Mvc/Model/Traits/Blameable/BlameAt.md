@@ -43,5 +43,4 @@ public getDateCallback(string $format, ?int $timestamp = null): \Closure
 ***
 
 ***
-> Automatically generated on 2024-03-28
 

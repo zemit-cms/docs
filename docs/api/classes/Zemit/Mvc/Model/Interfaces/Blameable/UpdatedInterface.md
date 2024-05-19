@@ -90,4 +90,3 @@ public getUpdatedBehavior(): \Zemit\Mvc\Model\Behavior\Transformable
 
 
 ***
-> Automatically generated on 2024-03-28

@@ -94,5 +94,4 @@ public attachBehaviors(array $behaviors = [], string|null $eventType = null, int
 ***
 
 ***
-> Automatically generated on 2024-03-28
 

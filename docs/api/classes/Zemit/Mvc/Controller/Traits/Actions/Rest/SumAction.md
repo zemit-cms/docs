@@ -45,5 +45,4 @@ The REST response with a status of true.
 ***
 
 ***
-> Automatically generated on 2024-03-28
 

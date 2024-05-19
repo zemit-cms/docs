@@ -70,5 +70,4 @@ public writeAttribute(string $attribute, mixed $value): mixed
 ***
 
 ***
-> Automatically generated on 2024-03-28
 

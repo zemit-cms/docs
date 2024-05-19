@@ -42,5 +42,4 @@ public static findInById(array $idList = []): mixed
 ***
 
 ***
-> Automatically generated on 2024-03-28
 

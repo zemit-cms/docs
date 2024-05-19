@@ -301,4 +301,3 @@ public getResourceOwner(\League\OAuth2\Client\Token\AccessToken $token): \League
 
 
 ***
-> Automatically generated on 2024-03-28

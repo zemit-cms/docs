@@ -45,4 +45,3 @@ public describeColumns(string $table, string $schema = null): array
 
 
 ***
-> Automatically generated on 2024-03-28

@@ -349,5 +349,4 @@ public static getParametersFromArguments(array& $arguments): mixed
 ***
 
 ***
-> Automatically generated on 2024-03-28
 

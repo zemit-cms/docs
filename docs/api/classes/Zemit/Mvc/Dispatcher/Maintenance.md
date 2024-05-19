@@ -59,4 +59,3 @@ public beforeDispatch(\Phalcon\Events\Event $event, \Phalcon\Dispatcher\Abstract
 
 
 ***
-> Automatically generated on 2024-03-28

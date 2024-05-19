@@ -94,4 +94,3 @@ public afterQuery(\Phalcon\Events\EventInterface $event, \Phalcon\Db\Adapter\Abs
 
 
 ***
-> Automatically generated on 2024-03-28

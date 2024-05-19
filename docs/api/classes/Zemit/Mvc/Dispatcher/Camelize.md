@@ -46,4 +46,3 @@ public beforeDispatchLoop(\Phalcon\Events\Event $event, \Phalcon\Dispatcher\Abst
 
 
 ***
-> Automatically generated on 2024-03-28

@@ -20,4 +20,3 @@ It extends the \Phalcon\Html\TagFactory class.
 
 
 ***
-> Automatically generated on 2024-03-28

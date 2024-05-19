@@ -12,6 +12,29 @@ Class Controller
 
 
 
+## Methods
+
+
+### initialize
+
+
+
+```php
+public initialize(): void
+```
+
+
+
+
+
+
+
+
+
+
+
+
+***
 
 
 ## Inherited methods
@@ -1680,4 +1703,3 @@ public afterExecuteRoute(\Phalcon\Mvc\Dispatcher $dispatcher): void
 
 
 ***
-> Automatically generated on 2024-03-28

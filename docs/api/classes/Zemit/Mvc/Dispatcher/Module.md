@@ -47,4 +47,3 @@ public beforeForward(\Phalcon\Events\Event $event, \Phalcon\Dispatcher\Dispatche
 
 
 ***
-> Automatically generated on 2024-03-28

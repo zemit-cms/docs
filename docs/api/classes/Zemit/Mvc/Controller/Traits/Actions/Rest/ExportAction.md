@@ -44,5 +44,4 @@ calling `exit` with a status code of 0.
 ***
 
 ***
-> Automatically generated on 2024-03-28
 

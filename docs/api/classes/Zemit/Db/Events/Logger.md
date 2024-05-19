@@ -68,4 +68,3 @@ public beforeQuery(\Phalcon\Events\EventInterface $event, \Phalcon\Db\Adapter\Ab
 
 
 ***
-> Automatically generated on 2024-03-28

@@ -11,6 +11,38 @@ Class Controller
 
 
 
+## Properties
+
+
+### limit
+
+
+
+```php
+protected ?int $limit
+```
+
+
+
+
+
+
+***
+
+### maxLimit
+
+
+
+```php
+protected ?int $maxLimit
+```
+
+
+
+
+
+
+***
 
 
 
@@ -1680,4 +1712,3 @@ public afterExecuteRoute(\Phalcon\Mvc\Dispatcher $dispatcher): void
 
 
 ***
-> Automatically generated on 2024-03-28

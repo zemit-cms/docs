@@ -40,5 +40,4 @@ True if debug mode is enabled, false otherwise.
 ***
 
 ***
-> Automatically generated on 2024-03-28
 

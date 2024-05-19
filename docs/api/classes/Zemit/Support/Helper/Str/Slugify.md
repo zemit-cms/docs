@@ -45,4 +45,3 @@ public __invoke(string $string, array $replace = [], string $delimiter = '-'): s
 
 
 ***
-> Automatically generated on 2024-03-28

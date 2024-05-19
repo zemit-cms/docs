@@ -77,4 +77,3 @@ public static process(array $collection = [], string $delimiter = '.', bool $low
 
 
 ***
-> Automatically generated on 2024-03-28

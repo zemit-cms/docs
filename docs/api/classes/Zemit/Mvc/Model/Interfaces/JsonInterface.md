@@ -74,4 +74,3 @@ public jsonDecode(string $json, ?bool $associative = null, int $depth = 512, int
 
 
 ***
-> Automatically generated on 2024-03-28

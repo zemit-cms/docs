@@ -227,7 +227,7 @@ public setWorkspaceId(mixed $workspaceId): void
 
 Returns the value of field name
 Column: name
-Attributes: NotNull | Size(120) | Type(2)
+Attributes: NotNull | Size(60) | Type(2)
 
 ```php
 public getName(): mixed
@@ -250,7 +250,7 @@ public getName(): mixed
 
 Sets the value of field name
 Column: name
-Attributes: NotNull | Size(120) | Type(2)
+Attributes: NotNull | Size(60) | Type(2)
 
 ```php
 public setName(mixed $name): void
@@ -268,6 +268,162 @@ public setName(mixed $name): void
 | Parameter | Type | Description |
 |-----------|------|-------------|
 | `$name` | **mixed** |  |
+
+
+
+
+
+***
+
+### getDescription
+
+Returns the value of field description
+Column: description
+Attributes: Size(240) | Type(2)
+
+```php
+public getDescription(): mixed
+```
+
+
+
+
+
+
+
+
+
+
+
+
+***
+
+### setDescription
+
+Sets the value of field description
+Column: description
+Attributes: Size(240) | Type(2)
+
+```php
+public setDescription(mixed $description): void
+```
+
+
+
+
+
+
+
+
+**Parameters:**
+
+| Parameter | Type | Description |
+|-----------|------|-------------|
+| `$description` | **mixed** |  |
+
+
+
+
+
+***
+
+### getIcon
+
+Returns the value of field icon
+Column: icon
+Attributes: Size(64) | Type(2)
+
+```php
+public getIcon(): mixed
+```
+
+
+
+
+
+
+
+
+
+
+
+
+***
+
+### setIcon
+
+Sets the value of field icon
+Column: icon
+Attributes: Size(64) | Type(2)
+
+```php
+public setIcon(mixed $icon): void
+```
+
+
+
+
+
+
+
+
+**Parameters:**
+
+| Parameter | Type | Description |
+|-----------|------|-------------|
+| `$icon` | **mixed** |  |
+
+
+
+
+
+***
+
+### getColor
+
+Returns the value of field color
+Column: color
+Attributes: Size(9) | Type(5)
+
+```php
+public getColor(): mixed
+```
+
+
+
+
+
+
+
+
+
+
+
+
+***
+
+### setColor
+
+Sets the value of field color
+Column: color
+Attributes: Size(9) | Type(5)
+
+```php
+public setColor(mixed $color): void
+```
+
+
+
+
+
+
+
+
+**Parameters:**
+
+| Parameter | Type | Description |
+|-----------|------|-------------|
+| `$color` | **mixed** |  |
 
 
 
@@ -4265,4 +4421,3 @@ public addRestoredValidation(\Zemit\Filter\Validation $validator, string $restor
 
 
 ***
-> Automatically generated on 2024-03-28

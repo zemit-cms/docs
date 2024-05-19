@@ -43,5 +43,4 @@ public setStatusCode(int $code = 200, ?string $message = null): \Phalcon\Http\Re
 ***
 
 ***
-> Automatically generated on 2024-03-28
 

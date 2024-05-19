@@ -72,5 +72,4 @@ public maximumAction(): \Phalcon\Http\ResponseInterface
 ***
 
 ***
-> Automatically generated on 2024-03-28
 

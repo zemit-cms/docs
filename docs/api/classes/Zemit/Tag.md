@@ -1180,4 +1180,3 @@ public static js(string|null $collection = null): void
 
 
 ***
-> Automatically generated on 2024-03-28

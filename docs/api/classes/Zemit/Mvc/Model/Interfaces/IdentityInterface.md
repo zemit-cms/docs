@@ -186,4 +186,3 @@ public getCurrentUserIdCallback(bool $as = false): \Closure
 
 
 ***
-> Automatically generated on 2024-03-28

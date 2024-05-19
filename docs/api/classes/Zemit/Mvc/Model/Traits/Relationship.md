@@ -907,5 +907,4 @@ public toArray(mixed $columns = null, mixed $useGetter = true): array
 ***
 
 ***
-> Automatically generated on 2024-03-28
 

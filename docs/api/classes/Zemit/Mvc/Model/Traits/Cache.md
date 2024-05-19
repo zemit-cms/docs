@@ -123,5 +123,4 @@ public isInstanceOf(array $classes = [], ?\Phalcon\Mvc\ModelInterface $that = nu
 ***
 
 ***
-> Automatically generated on 2024-03-28
 

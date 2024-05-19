@@ -11,6 +11,38 @@ Class Controller
 
 
 
+## Properties
+
+
+### limit
+
+
+
+```php
+protected ?int $limit
+```
+
+
+
+
+
+
+***
+
+### maxLimit
+
+
+
+```php
+protected ?int $maxLimit
+```
+
+
+
+
+
+
+***
 
 ## Methods
 
@@ -29,6 +61,34 @@ public initializeWith(): void
 
 
 
+
+
+
+
+
+***
+
+### listExpose
+
+
+
+```php
+public listExpose(iterable $items, ?array $expose = null): array
+```
+
+
+
+
+
+
+
+
+**Parameters:**
+
+| Parameter | Type | Description |
+|-----------|------|-------------|
+| `$items` | **iterable** |  |
+| `$expose` | **?array** |  |
 
 
 
@@ -1724,4 +1784,3 @@ public afterExecuteRoute(\Phalcon\Mvc\Dispatcher $dispatcher): void
 
 
 ***
-> Automatically generated on 2024-03-28

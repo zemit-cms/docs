@@ -43,5 +43,4 @@ public _(string $translateKey, array $placeholders = []): string
 ***
 
 ***
-> Automatically generated on 2024-03-28
 

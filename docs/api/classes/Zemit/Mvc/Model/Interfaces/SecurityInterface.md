@@ -90,4 +90,3 @@ public getSecurityBehavior(): \Zemit\Mvc\Model\Behavior\Security
 
 
 ***
-> Automatically generated on 2024-03-28

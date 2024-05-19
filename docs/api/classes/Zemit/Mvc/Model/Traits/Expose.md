@@ -44,5 +44,4 @@ public expose(?array $columns = null, ?bool $expose = null, ?bool $protected = n
 ***
 
 ***
-> Automatically generated on 2024-03-28
 

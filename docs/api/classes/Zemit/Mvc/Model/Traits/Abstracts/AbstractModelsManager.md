@@ -36,5 +36,4 @@ public getModelsManager(): \Phalcon\Mvc\Model\ManagerInterface
 ***
 
 ***
-> Automatically generated on 2024-03-28
 

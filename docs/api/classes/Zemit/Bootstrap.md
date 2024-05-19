@@ -827,4 +827,3 @@ public fire(string $task, mixed|null $data = null, bool $cancelable = false): mi
 
 
 ***
-> Automatically generated on 2024-03-28

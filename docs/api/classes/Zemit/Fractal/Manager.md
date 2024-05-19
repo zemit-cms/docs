@@ -15,4 +15,3 @@ The Manager class extends the League\Fractal\Manager class and provides addition
 
 
 ***
-> Automatically generated on 2024-03-28

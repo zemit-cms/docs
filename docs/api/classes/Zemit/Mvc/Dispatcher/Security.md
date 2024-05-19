@@ -83,4 +83,3 @@ public checkAcl(\Phalcon\Events\Event $event, ?\Phalcon\Dispatcher\AbstractDispa
 
 
 ***
-> Automatically generated on 2024-03-28

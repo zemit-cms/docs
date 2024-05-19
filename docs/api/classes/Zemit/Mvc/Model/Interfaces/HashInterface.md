@@ -73,4 +73,3 @@ public checkHash(?string $hash = null, ?string $string = null, int $maxPassLengt
 
 
 ***
-> Automatically generated on 2024-03-28

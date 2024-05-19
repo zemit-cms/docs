@@ -152,4 +152,3 @@ public hasBehavior(\Phalcon\Mvc\ModelInterface $model, string $behaviorName): bo
 
 
 ***
-> Automatically generated on 2024-03-28

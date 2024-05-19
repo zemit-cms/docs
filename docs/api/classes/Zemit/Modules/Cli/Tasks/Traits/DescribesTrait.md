@@ -319,5 +319,4 @@ Returns the table name with the first letter capitalized and all other letters u
 ***
 
 ***
-> Automatically generated on 2024-03-28
 

@@ -66,4 +66,3 @@ public hash(string $password, array $options = []): string
 
 
 ***
-> Automatically generated on 2024-03-28

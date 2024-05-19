@@ -138,5 +138,4 @@ public __get(string $property): mixed
 ***
 
 ***
-> Automatically generated on 2024-03-28
 
