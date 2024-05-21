@@ -34,11 +34,11 @@ jobs:
                       neoteroi-mkdocs \
                       pillow \
                       cairosvg
-        env:
-          CD: true
 
       - name: Build MkDocs site
         run: mkdocs build --verbose
+        env:
+          CD: true
 
       - name: Create .nojekyll file
         run: touch ./site/.nojekyll
