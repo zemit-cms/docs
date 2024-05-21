@@ -1,8 +1,8 @@
 # REST System
 
 The REST System in Zemit forms the backbone of custom API development. Built upon
-[`\Zemit\Mvc\Controller\Rest`](../api/classes/Zemit/Mvc/Controller/Rest.md), which
-itself extends [`\Zemit\Mvc\Controller`](../api/classes/Zemit/Mvc/Controller.md), this system inherits all functionalities
+[`\Zemit\Mvc\Controller\Rest`](/api/classes/Zemit/Mvc/Controller/Rest.md), which
+itself extends [`\Zemit\Mvc\Controller`](/api/classes/Zemit/Mvc/Controller.md), this system inherits all functionalities
 of the Zemit Controller base. For an
 in-depth understanding of the controller's capabilities, please refer to the Zemit MVC Controller component
 documentation.
