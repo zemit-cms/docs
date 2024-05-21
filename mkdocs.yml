@@ -134,8 +134,7 @@ extra_javascript:
   - assets/javascripts/extra.js
 plugins:
   - group:
-#      enabled: !ENV CI
-      enabled: true
+      enabled: !ENV CI
       plugins:
         - exclude:
             glob:
