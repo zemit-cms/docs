@@ -138,11 +138,11 @@ plugins:
       plugins:
         - exclude:
             glob:
-              - api/*
+              - api/classes/*
               - "*.tmp"
               - ".draft.md"
             regex:
-              - '^api/'
+              - '^api/classes/'
   - group:
       enabled: true
       plugins:
@@ -244,6 +244,89 @@ nav:
       - Frontend: modules/frontend.md
       - Admin: modules/admin.md
       - Auth: modules/auth.md
+
+      - API: modules/api.md
+      - CLI: modules/cli.md
+  - Services:
+      - Introduction: services.md
+      - Bootstrap:
+          - Application: services/application.md
+          - Console: services/console.md
+          - Router: services/router.md
+          - Dispatcher: services/dispatcher.md
+          - Events: services/events-manager.md
+      - HTTP:
+          - Request: services/request.md
+          - Response: services/response.md
+          - Cookies: services/cookies.md
+          - Session: services/session.md
+          - Url: services/url.md
+      - Configuration:
+          - Version: services/version.md
+          - Config: services/config.md
+          - Env: services/env.md
+      - Database:
+          - Database: services/database.md
+      - i18n:
+          - Locale: services/locale.md
+          - Translate: services/translate.md
+      - Security:
+          - ACL: services/acl.md
+          - JWT: services/jwt.md
+          - Crypt: services/crypt.md
+          - Filter: services/filter.md
+          - Escaper: services/escaper.md
+          - Identity: services/identity.md
+          - Security: services/security.md
+      - Performance:
+          - Cache: services/cache.md
+          - Profiler: services/profiler.md
+      - Emails:
+          - Mailer: services/mailer.md
+          - Imap: services/imap.md
+      - Helpers:
+          - Debug: services/debug.md
+          - Helper: services/helper.md
+          - Utils: services/utils.md
+          - Flash: services/flash.md
+          - Image: services/image.md
+          - Tag: services/tag.md
+          - File System: services/file-system.md
+          - Lorem Ipsum: services/lorem-ipsum.md
+      - Frontend:
+          - Assets: services/assets.md
+          - View: services/view.md
+          - Volt: services/volt.md
+      - Loggers:
+          - Logger: services/logger.md
+          - Loggers: services/loggers.md
+      - Models:
+          - Models: services/models.md
+          - Models Cache: services/models-cache.md
+          - Models Manager: services/models-manager.md
+          - Models Metadata: services/models-metadata.md
+      - Auth:
+          - OAuth2 Client: services/oauth-2-client.md
+          - OAuth2 Facebook: services/oauth-2-facebook.md
+          - OAuth2 Google: services/oauth-2-google.md
+      - Providers:
+          - Aws: services/aws.md
+          - Google: services/google.md
+          - Open AI: services/open-ai.md
+          - Gravatar: services/gravatar.md
+          - ReCaptcha: services/re-captcha.md
+          - Tesseract OCR: services/ocr.md
+          - Clamav: services/clamav.md
+  - REST:
+      - Introduction : rest.md
+      - REST System : rest/rest-system.md
+      - RESTful System : rest/restful-system.md
+      - Authentication:
+          - Identity: rest/auth.md
+      - APIs:
+          - User: rest/api/user.md
+          - Role: rest/api/role.md
+          - Group: rest/api/group.md
   - API:
       - Home: api/Home.md
       - \Zemit:
